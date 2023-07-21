@@ -1,9 +1,5 @@
 package com.acme.cbsg;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Properties;
 
@@ -33,15 +29,6 @@ public final class CbsgGenerator {
         Properties cbsgConfiguration = loadCbsgConfiguration(args);
         Cbsg cbsg = new CbsgCore(cbsgConfiguration);
         String text = getCbsText(cbsg, args);
-        // AI corrections
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader("openai.key"));
-            String key = reader.readLine();
-            reader.close();
-            
-        } catch (IOException e) {
-            System.out.println("Could not find file with you open ai key");
-        }
         System.out.println(text);
     }
 
