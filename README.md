@@ -1,12 +1,12 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lsmhun/cbsg-java/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/lsmhun/cbsg-java/tree/main)
 
-# Corporate Bullshit Generator for Java
+# Corporate Bullshit Generator but even lazier
 
-This is the [Corporate Bullshit Generator](http://cbsg.sf.net/) rewritten in Java. 
-Implementation is based on [franciscouzo](https://github.com/franciscouzo/corporate_bullshit)'s 
+This is a fork of the [Corporate-Bullshit-Generator-for-Java] but with AI corrections to sound more professional even faster. 
+Java implementation is based on [franciscouzo](https://github.com/franciscouzo/corporate_bullshit)'s 
 Python code.
 
-## Usage
+## Usage Java
 
 Simple run `java -jar cbsg-0.1.0.jar` then "short workshop" will be generated.
 there are some supported parameters for dedicated workspace influencers.
@@ -25,22 +25,22 @@ Available options:
 
 ```
 
+## Usage Python
+
+Create a file named ```openai.key``` then put your private key in it.
+After running the Java code run this command.
+
+```
+python ai.py
+```
+
 ## Examples
 
 ```
-Matrices promote the Growth Hackers across and beyond the cubes; this is why 
-expertise in the digital age calls for silos. The sphere promotes our cubes 
-within the community, whereas a matrix 24/7 reenergizes the resources within 
-the community. There is no alternative to sphere. Matrices revolutionise 
-an organization, as a Tier 1 company. In the same time, the diversities 
-proactively reintermediates our cube up, down and across the matrix. 
-Matrix in the digital age calls for sphere.
-
-Cubes will be a thing of the past over the next decade and be fully 
-replaced with intra-company, enhanced motions. 
+Sustainability in the digital age calls for a wave of change. The Chief Officer leverages the centralized and multi-tasked guidelines across boundaries. The long-term and holistic solutions solve our customer-centric, front-end analytics across and beyond the cubes. A consumer-facing and user-driven knowledge transfer enhances a customized and integrated sphere across the wider Group. The request/solution engineers a matrix, paving the way for compliant and mindful synergies; while the silo champion facilitates macroscopic and systematized style guidelines downstream.
 ```
 
-## Documentation
+## Documentation for [Corporate-Bullshit-Generator-for-Java]
 
 Our mentor is still: [Dilbert](https://www.dilbert.com)'s pointy-haired boss
 
